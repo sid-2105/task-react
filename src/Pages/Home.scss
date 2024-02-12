@@ -1,0 +1,37 @@
+.Home{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.regbtn{
+    display: flex;
+    gap: 3vw;
+    button{
+        width: 7vw;
+        height: 8vh;
+        border-radius: 5px;
+    }
+    #loginbtn{
+        background-color:#38b000;
+    }
+    
+    #signupbtn{
+        background-color:#2196f3;
+    }
+}
+
+.taskbtn{
+    button{
+        background-color: #fe7f2d;
+        width: 17vw;
+        height: 8vh;
+        margin-top: 3vh;
+    } 
+}
+
+
+.home_right{
+    display: block;
+    margin-right: 15vw;
+}

@@ -1,0 +1,14 @@
+.help{
+    background-image: url("./bgpic3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.help_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 30%;
+        height: 30%;
+    }
+}
