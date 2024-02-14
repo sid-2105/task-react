@@ -4,7 +4,7 @@ import {FaArrowRight} from "react-icons/fa"
 
 const Home = () => {
   return (
-        <div className='Home'>
+        <div className='Home'id='homepage'>
           <div className="home_left"> <img src='./homepic.png' alt='Landing Pic'/></div>
            <div className="home_right">
             <div className="regbtn">

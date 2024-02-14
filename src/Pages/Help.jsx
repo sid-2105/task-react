@@ -5,7 +5,7 @@ import "./Help.scss"
 const Help = () => {
   return (
     <div className="page">
-      <div className="help">
+      <div className="help" id='helppage'>
         <div className="help_left">
           <img src="./help.png" alt="" />
         </div>

@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -7,12 +7,12 @@ import Help from './Pages/Help';
 
 function App() {
   return (
-  <div>
-    <Home/>
-    <About/>
-    <Contact/>
-    <Help/>
-  </div>
+    <div>
+      <Home/>
+      <About/>
+      <Contact/>
+      <Help/>
+    </div>
   );
 }
 

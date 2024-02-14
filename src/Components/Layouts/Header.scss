@@ -22,12 +22,18 @@
 }
 
 .navigation{
-    list-style: none;
-    display: flex;
-    gap:3vw;
+    ul{
+        display: flex;
+        gap:3vw;
+        cursor: pointer;
+    }
+    
+    li{
+        list-style: none;
+    }
     a{
         text-decoration: none;
         font-size: 1.5vw;
-        color:#0b132b;
+        color:#34035d;
     }
 }
